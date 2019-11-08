@@ -13,7 +13,8 @@
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<h1>WEEK2-9</h1>
+<h1>week</h1>
+<h2>WEEK2-5</h2>
 <p>week2</p>
 <p>建立倉儲</p>
 <p>影片:<a href="https://youtu.be/kaMfd0vBJls">https://youtu.be/kaMfd0vBJls</a></p>
@@ -25,5 +26,39 @@
 <p></p>
 <p>week4</p>
 <p></p>
-<p></p>
+<p>無</p>
 <p>week5</p>
+<p><span>練習solvespace基本操作</span></p>
+<p><span>並繪製一個元件</span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/oRVl22ec3iA" width="560"></iframe></p>
+<p></p>
+<h2>WEEK6-9</h2>
+<p><span>week6</span></p>
+<p><span>用solvespace畫一台雙輪車</span></p>
+<p><span></span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ck7BOYflMZ8" width="560"></iframe></span></p>
+<p><span>下載 <a href="https://drive.google.com/file/d/1cZFSsLEoGOBYojzKzFEf4YH2l--pbS-9/view?usp=sharing">V-rep 3.6.1 rev 4.7z</a> 及<a href="https://github.com/mdecourse/mocad/files/3583773/web_vrep2.zip">web_vrep2.zip</a> (<a href="http://mde.tw/cad2019/downloads/web_vrep2.zip">local</a>)</span></p>
+<p><span><span>打開<span>web_vrep2</span><span>裡的</span><span>app.py</span><span>並執行，進入到</span><span>http://127.0.0.1:5000/</span></span></span></p>
+<p><span><span><span>打開vrep.exe並開啟web_vrep2裡的two_wheeler.ttt車子檔案</span></span></span></p>
+<p><span><span><span>開始之後，就可以利用運用控制器的前後左右測試是否可以控制車子</span></span></span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/23Wp2Cl4iJA" width="560"></iframe></span></p>
+<p><span>week7</span></p>
+<p><span>week8</span></p>
+<p><span>week9</span></p>
+<h2>WEEK10-14</h2>
+<p><span>week10</span></p>
+<p><span>week11</span></p>
+<p><span>week12</span></p>
+<p><span>week13</span></p>
+<p><span>week14</span></p>
+<h1>About</h1>
+<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
+<h4>利用 cmsimde 建立靜態網誌方法:</h4>
+<p>1. 在 github 建立倉儲, git clone 到近端</p>
+<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
+<p><span><span>以git子模塊添加 <span> </span></span></span><a href="https://github.com/mdecourse/cmsimde"><span><span>https://github.com/mdecourse/cmsimde</span></span></a><span><span><span> </span> cmsimde</span></span></p>
+<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
+<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
+<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
+<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
+<p><span><span>git clone --recurse-submodules<span> </span></span></span><a href="https://github.com/mdecourse/newcms.git"><span><span>https://github.com/mdecourse/newcms.git</span></span></a></p>
