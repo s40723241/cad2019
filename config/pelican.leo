@@ -23,6 +23,7 @@
 <v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
 <v t="leo.20170709020600.1"><vh>共用</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
+<v t="leo.20191108224228.1"><vh>@auto blog\index.html</vh></v>
 <v t="leo.20170709015947.1"><vh>遠端</vh></v>
 <v t="leo.20170709015955.1"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20170709015940.1"><vh>近端</vh></v>
@@ -64,9 +65,11 @@
 </v>
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
+<v t="leo.20191108224307.1"><vh>@auto ..\blog\index.html</vh></v>
 <v t="leo.20180115115910.1"><vh>2018</vh>
 <v t="leo.20180423103639.1"><vh>2018 Fall CP 課程</vh>
 <v t="leo.20180423103656.1"><vh>@edit 20180910.md</vh></v>
+<v t="leo.20191108224403.1"><vh>@edit 20180910.md</vh></v>
 <v t="leo.20180909205246.1"><vh>@edit 20180911.md</vh></v>
 </v>
 </v>
