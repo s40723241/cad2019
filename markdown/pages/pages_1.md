@@ -4,11 +4,13 @@ Title: About
 
 課程倉儲: <a href="https://github.com/chiamingyen/cmsimfly">https://github.com/chiamingyen/cmsimfly</a>
 
-內容管理: <a href="https://chiamingyen.github.io/cmsimfly/">https://chiamingyen.github.io/cmsimfly/</a>
+個人網站: <a href="https://s40723241.github.io/cad2019/content/index.html
+">https://s40723241.github.io/cad2019/content/index.html
+</a>
 
-課程投影片: <a href="https://chiamingyen.github.io/cmsimfly/reveal">https://chiamingyen.github.io/cmsimfly/reveal</a>
+課程投影片: <a href="https://s40723241.github.io/cad2019/reveal/index.html#/">https://s40723241.github.io/cad2019/reveal/index.html#/</a>
 
-課程網誌: <a href="https://chiamingyen.github.io/cmsimfly/blog">https://chiamingyen.github.io/cmsimfly/blog</a>
+期中報告: <a href="https://youtu.be/z9UQaTvErUk">https://youtu.be/z9UQaTvErUk</a>
 
 
 
